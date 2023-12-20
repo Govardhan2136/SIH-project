@@ -1,0 +1,171 @@
+Rishikesh:
+
+Lakshman Jhula: A suspension bridge across the river Ganges1.
+Triveni Ghat: A ghat where three rivers meet and a sacred bathing spot2.
+Delhi:
+
+India Gate: A war memorial located astride the Rajpath3.
+Flagship Chaudhary Palace Near Lotus Temple: A landmark near the Lotus Temple4.
+Agra:
+
+Taj Mahal: An ivory-white marble mausoleum on the right bank of the Yamuna river5.
+Agra Fort: A historical fort in the city of Agra6.
+Jaipur:
+
+Hawa Mahal: A palace in Jaipur, so named because it was essentially a high screen wall built so the women of the royal household could observe street festivals while unseen from the outside7.
+Nahargarh Fort: Located on the Aravalli range of hills, it provides an excellent view of Aravalli hills and the Amer Fort8.
+Udaipur:
+
+Saheliyon-ki-Bari: A major garden and a popular tourist space in Udaipur9.
+Udaipur City Palace: A palace complex situated in the city of Udaipur that offers a panoramic view of the city and its surroundings10.
+Mumbai:
+
+Gateway of India: An arch-monument built in the early twentieth century in the city of Mumbai, in the Indian state of Maharashtra11.
+Chhatrapati Shivaji Terminus: A historic terminal train station and UNESCO World Heritage Site in Mumbai, Maharashtra, India12.
+Chennai:
+
+St George Fort: The first English fortress in India, founded in 1644 at Chennai, by the British East India Company13.
+Marina Beach: A natural urban beach along the Bay of Bengal, part of the Indian Ocean14.
+Please note that this is not an exhaustive list and there are many more landmarks to explore in these cities. Enjoy your trip! 😊
+
+        <section class="Touristplaces">
+            <h1>Frequently Visited Places</h1>
+            <p>Here are few destinations in India frequented by many tourists</p>
+
+            <div class="tourrow">
+                <div class="tourcol">
+                    <h3>Rishikesh</h3>
+                    <div class="subcol">
+                        <img src="Lakshman Jhula.jpg">
+                    </div>
+                    <div class="subcol">
+                        <img src="Triveni Ghat.jpg">
+                    </div>
+                </div>
+                <div class="tourcol">
+                    <h3>Delhi</h3>
+                    <div class="subcol">
+                        <img src="India Gate.jpg">
+                        <img src="lotus temple.jpg">
+                    </div>
+                </div>
+                <div class="tourcol">
+                    <h3>Agra</h3>
+                    <div class="subcol">
+                        <img src="taj mahal.jpg">
+                        <img src="Agra Fort.jpg">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tourrow">
+                <div class="tourcol">
+                    <h3>Jaipur</h3>
+                    <div class="subcol">
+                        <img src="Hawa Mahal.jpg">
+                        <img src="Nahargarh Fort.jpg">
+                    </div>
+                </div>
+                <div class="tourcol">
+                    <h3>Udaipur</h3>
+                    <div class="subcol">
+                        <img src="Saheliyon-ki-Bari.jpg">
+                        <img src="Udaipur City Palace.jpg">
+                    </div>
+                </div>
+                <div class="tourcol">
+                    <h3>Mumbai</h3>
+                    <div class="subcol">
+                        <img src="Gateway of India.jpg">
+                        <img src="Chhatrapati Shivaji Terminus.jpg">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tourrow">
+                <div class="tourcol">
+                    <h3>Chennai</h3>
+                    <div class="subcol">
+                        <img src="St George Fort.jpg">
+                        <img src="Marina Beach.jpg">
+                    </div>
+                </div>
+            </div>
+            
+
+        </section>
+
+
+/*----      touristplaces transitions and effects      ----*/
+
+.Touristplaces{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    padding-top: 25px;
+}
+
+.Touristplaces h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Touristplaces p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.tourrow{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tourcol{
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: inline-block;
+    align-items: center;
+}
+
+.subcol{
+    display: inline-block;
+}
+
+.subcol img{
+    height: 150px;
+    width: auto;
+    max-width: 100%;
+}
+
+.layer{
+    background: #a3f4db80;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tourcol h3{
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.tourcol:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+                <!-----     searchbar and button        -----
+                
+                <form class="input-search">
+                    <input type="search" id="search" placeholder="Enter City name...">
+                    <input type="submit" value="search">
+                </form>
+
+                --->
